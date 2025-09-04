@@ -45,29 +45,29 @@ A comprehensive student voting platform with secure authentication, document ver
 
 #### Frontend (.env.local)
 ```
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=944774401920-e480a18oqmleomjq35fafbq3gd4l1rql.apps.googleusercontent.com
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=********************************************
+NEXT_PUBLIC_API_URL=***********
 ```
 
 #### Backend (appsettings.json)
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "postgresql://lasu_e_voting_user:C4OOM90FOHXhVfyYZwLBvitKa21Khnrv@dpg-d25j6b2li9vc73fci2c0-a.frankfurt-postgres.render.com/lasu_e_voting"
+    "DefaultConnection": "*****************************"
   },
   "GoogleAuth": {
-    "ClientId": "944774401920-e480a18oqmleomjq35fafbq3gd4l1rql.apps.googleusercontent.com",
-    "ClientSecret": "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"
+    "ClientId": "***************************",
+    "ClientSecret": "***************************"
   },
   "Cloudinary": {
-    "CloudName": "dqkghcgow",
-    "ApiKey": "672365985514259",
-    "ApiSecret": "YrhbPr0zsByp9DJFP9QIsgFkzaQ"
+    "CloudName": "*******",
+    "ApiKey": "**************",
+    "ApiSecret": "**************"
   },
   "SkyBiometry": {
-    "ApiKey": "j5gm0kffmjh3dqkn9g0d5a3fq2",
-    "ApiSecret": "dhq4dd2ml4slbekja7tmt4n6te",
-    "Namespace": "nacos_e_voting"
+    "ApiKey": "*******************",
+    "ApiSecret": "***************",
+    "Namespace": "****************"
   }
 }
 ```
